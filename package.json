@@ -1,0 +1,13 @@
+{
+  "name": "templates-and-automation",
+  "version": "1.0.0",
+  "description": "A very simple example of templates",
+  "scripts": {
+    "build": "npx eleventy",
+    "start": "npx eleventy --serve"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

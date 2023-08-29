@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  {%- capture css -%}{%- include "css/styles.css" -%}{% endcapture -%}
+  <style>{{ css }}</style>
+</head>
+<body>
+  <header>
+    <a href="/">Home</a> | <a href="/about/">About</a>
+  </header>
+  <main>
+  {{ content }}
+  </main>
+  <footer>
+    This footer section is on every page. Hooray!!!
+  </footer>
+</body>
+</html>
